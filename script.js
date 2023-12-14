@@ -2,7 +2,7 @@ const CARD_WIDTH = 200;
 const CARD_SPACING = 25;
 const AMOUNT_OF_SHUFFLES = 10;
 
-const MAX_ROUNDS = 6;
+const MAX_ROUNDS = 10;
 let SHUFFLE_SPEED = 250;
 
 const CARD_SPREAD_PAUSE = 1000;
@@ -397,6 +397,12 @@ function arraysEqual(arr1, arr2) {
   }
   return true;
 }
+
+// -------------------------------------------------------
+// -------------------------------------------------------
+// BUTTONS THAT HANDLE DIFFICULTY LEVEL (SHUFFLING SPEED)
+// -------------------------------------------------------
+// -------------------------------------------------------
 
 function speedButtons() {
   let easyBtnEl = document.getElementById("easy");
